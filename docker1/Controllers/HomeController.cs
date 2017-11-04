@@ -12,7 +12,7 @@ namespace docker1.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return Content("Hello YiChe");
         }
 
         public IActionResult About()
