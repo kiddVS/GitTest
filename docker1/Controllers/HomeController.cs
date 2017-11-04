@@ -12,8 +12,9 @@ namespace docker1.Controllers
     {
         public IActionResult Index()
         {
-            string str = "dev2分支修改";
-            string str2 = "切换后的dev2分支";
+            string s = "test";
+            string str = "dev分支修改2";
+            string str2 = "dev分支修改2";
             return Content("Hello YiChe");
         }
 
